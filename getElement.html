@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    
+    <script>
+      // 아이디 속성 값이 타이틀이 요소 노드 선택
+      const el = document.getElementById("tittle");
+      console.log(el);
+      // class 속성값이 text 요소 노드 선택하기
+      const classEl = document.getElementById("text");
+      // console.log(classEl[0]);
+    //   console.log(classE1[1]);
+    // p 태그에 해당하는 요소 노드 모두 선택하기 
+    const tagEls = document.getElementsByTagName("p")
+    console.log(tagEls);
+    
+    </script>
+  </body>
+</html>
