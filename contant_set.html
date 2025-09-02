@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="textCotant"></p>
+    <p id="innerText"></p>
+    <p id="innerHtml"></p>
+    <script>
+        const textCotant = document.querySelector("textCotant")
+        const innerText = document.querySelector("innerText")
+        const innerHtml = document.querySelector("innerHtml")
+        textCotant.textCotent = `</strong>textCotant 속성입니다.</strong>`
+        textCotant.innerText = `</strong>innerText 속성입니다.</strong>`
+        innerHtml.innerHtml = `</strong>innerHtml 속성입니다.</strong>`
+        innerHtml.style.color = "red"
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red-color{
+            color: red;
+        }
+        .fs20{
+            font-size: 20px;
+        }
+        .bg{
+            background-color: aqua;
+        }
+        .active{
+            color: red;
+            font-size: 20px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p id="text" class="active">text</p>
+    <script>
+        const pel = document.querySelector("text");
+        // pel.classList.add("red-color " , "fs20" , "bg" );
+        // pel.classList.add("active")
+        pel.classList.remove("active")
+    </script>
+</body>
+</html>
